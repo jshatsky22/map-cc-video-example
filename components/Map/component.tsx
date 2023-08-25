@@ -21,7 +21,7 @@ export default function Component({ mapArea }: Props) {
 
   return (
     <Map
-      title={"Real Estate Permits Heatmap"}
+      title={"Southern California Earthquake Heatmap"}
       theme="dark"
       mileRadius={50}
       onZoom={handleZoom}></Map>
